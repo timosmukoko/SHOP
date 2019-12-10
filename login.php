@@ -1,0 +1,55 @@
+<?php include('include/home/header.php'); ?>	
+
+	<section id="form"><!--form-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-1">
+					<div class="login-form"><!--login form-->
+
+ 
+	<div class="error"></div>	
+
+						<h2>Administrator Login</h2>
+						  <form>
+						  <div class="imgcontainer">
+							<img src="images/home/avatarAdmin.png" alt="Avatar" class="avatar">
+						  </div>
+                            <input type="text" name="username" placeholder="username" id="username" required/>
+                            <input type="password" name="password" placeholder="password" id="password" required/>
+                            <button  type="button" name="submit" class="btn btn-default" id="login">Login</button>
+						 <div class="containerForm" style="background-color:#f1f1f1">						   
+						</div>
+                        </form>
+						<br>
+						<hr>
+						<br>
+						
+						
+					</div><!--/login form-->
+				</div>
+			</div>
+		</div>
+	</section><!--/form-->
+	
+	<!-- Form css -->
+	<style>
+		form {
+		border: 3px solid #f1f1f1;
+		align: "center";
+		
+		-webkit-box-shadow: 0px 0px 15px;
+		box-shadow: 0px 0px 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+		.containerForm {
+		padding: 16px;
+	}
+		.imgcontainer {
+		text-align: center;
+		margin: 24px 0 12px 0;
+	}
+	</style>
+  
+  
+<?php include('include/home/footer.php'); ?>
